@@ -1,0 +1,64 @@
+h2 {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 36px;
+	color: #333;
+}
+p, h3 {
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #333;
+}
+h4 {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #1c1c1c;
+}
+h5 {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1c1c1c;
+}
+
+.project-picture {
+	cursor:pointer;
+	padding:8px;
+	text-align:center;
+}
+.project-picture img {
+	width:100%;
+	max-width:350px;
+	transition: max-width 300ms;
+}
+.project-picture.expanded img {
+    max-width: 100%;
+}
+#global-nav {
+	padding:50px;
+}
+.navbar-expand-lg, .navbar-collapse {
+	background-color: #fff;
+}
+
+/*div.row > * {
+	box-shadow: 0 3px 15px -3px rgba(0,0,0,0.4);
+}*/
+#wrapper {
+	margin:20px;
+	padding:20px;
+}
+
+.navbar-light, .navbar-toggler {
+	border:none;
+}
+
+div {
+	margin:25px;
+}
